@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -29,18 +30,25 @@
   <title>webrtc_tutorial</title>
   <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
   <!-- Firebase Configuration -->
   <script>
-      var firebaseConfig = {
-         <Your-Config-here>
-      };
+    var firebaseConfig = {
+      apiKey: 'AIzaSyBzw2bR27p9YX0yO-Ra8hLKb37VXl3uOpw',
+      appId: '1:895294652464:web:17f939730fddb0dab16df5',
+      messagingSenderId: '895294652464',
+      projectId: 'webrtc-test-dcfd3',
+      authDomain: 'webrtc-test-dcfd3.firebaseapp.com',
+      storageBucket: 'webrtc-test-dcfd3.appspot.com',
+      measurementId: 'G-Q7QYMRB9V2',
+    };
 
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-    </script>
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -109,4 +117,5 @@
     }
   </script>
 </body>
+
 </html>
